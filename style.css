@@ -186,3 +186,125 @@ ul {
     width: 9vw;
     height: 5.5vh;
 }
+
+#Boutique {
+    background-color: rgb(230, 230, 230);
+    padding-top: 9vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#Boutique .imgCollection img{
+    width: 15vw;
+    height: 55vh;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.imgCollection {
+    background-color: re;
+    overflow: hidden;
+    width: 90vw;
+    height: 55vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    animation: slide 18s infinite alternate;
+}
+.collection{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    /*border: 1px solid rgb(25, 84, 157);*/
+    box-shadow: 0 1.5px 7px -2px;
+    margin-left: -1.5vw;
+    width: 23vw;
+    height: 81vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.collection:hover{
+    box-shadow: 0 2px 7px -1.9px;
+}
+.conteneurCollection{
+    background-color: blu;
+    width: 15vw;
+    height: 55vh;
+    border-radius: 10px;
+    overflow: hidden;
+}
+@keyframes slide{
+    0% { transform: translateX(0);}
+    16.6666667% { transform: translateX(-15vw);}
+    33.3333334% { transform: translateX(-30vw);}
+    50.0000001% { transform: translateX(-45vw);}
+    66.6666668% { transform: translateX(-60vw);}
+    83.3333335% { transform: translateX(-75vw);}
+}
+.textCollection {
+    background-color: rgb(205, 205, 205);
+    width: 20vw;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 0px;
+}
+.textCollection p{
+    font-size: 9.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textCollection h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: rgb(53, 71, 130);
+    font-weight: bold;
+}
+.textCollection span{
+    font-family: serif;
+    font-style: italic;
+    font-size: 19px;
+    font-weight: bold;
+}
+.paragraphe{
+    background-color: aqu;
+    width: 19vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bouton1{
+    background-color: aqu;
+    width: 6vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bouton1 button{
+    width: 5vw;
+    height: 4vh;
+    background-color: rgb(106, 144, 210);
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 0 2px 4px 0;
+}
+.bouton1 button img{
+    width: 15px;
+    height: 15px;
+    object-fit: contain;
+}
+.bouton1 button:hover{
+    width: 5.5vw;
+    height: 4.5vh;
+    box-shadow: 0 3px 6px 0;
+}
+
