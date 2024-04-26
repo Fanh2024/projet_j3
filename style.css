@@ -308,3 +308,321 @@ ul {
     box-shadow: 0 3px 6px 0;
 }
 
+
+.divers{
+    background-color: rgb(247, 247, 247);
+    width: 65vw;
+    height: 91vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    box-shadow: 0px 0.5px 6.5px -1.8px;
+}
+.divers:hover{
+    box-shadow: 0px 1px 6px -0.8px;
+}
+.button02 button{
+    font-size: x-small;
+    width: 3vw;
+    height: 3vh;
+    background-color: rgb(167, 188, 229);
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 0px 1px 4px 0px;
+}
+.button02 button:hover{
+    width: 3.2vw;
+    height: 3.2vh;
+    background-color: rgb(190, 208, 243);
+    font-weight: bold;
+    box-shadow: 0px 2px 5px -1px;
+}
+.dessous {
+    background-color: beig;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 12vw;
+    width: 14vw;
+}
+.dessous p{
+    font-size: 11.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.divers span{
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ligne1{
+    width: 20vw;
+    height: 88vh;
+    background-color: yello;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.ligne1 img{
+    width: 14vw;
+    height: 30vh;
+    object-fit: cover;
+}
+.pull1,
+    .pull2,
+    .pantalon1,
+    .pantalon2,
+    .shoes1,
+    .shoes2{
+    background-color: rgb(255, 255, 255);
+    width: 14vw;
+    height: 42vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 1px 5px -2px;
+}
+.pull1:hover{
+    box-shadow: 0 1px 5px -1px;
+    width: 14.2vw;
+    height: 42.2vh;
+}
+.pull2:hover{
+    box-shadow: 0 1px 5px -1px;
+    width: 14.2vw;
+    height: 42.2vh;
+}
+.pantalon1:hover{
+    box-shadow: 0 1px 5px -1px;
+    width: 14.2vw;
+    height: 42.2vh;
+}
+.pantalon2:hover{
+    box-shadow: 0 1px 5px -1px;
+    width: 14.2vw;
+    height: 42.2vh;
+}
+.shoes1:hover{
+    box-shadow: 0 1px 5px -1px;
+    width: 14.2vw;
+    height: 42.2vh;
+}
+.shoes2:hover{
+    box-shadow: 0 1px 5px -1px;
+    width: 14.2vw;
+    height: 42.2vh;
+}
+.contain1{
+    background-color: blueviole;
+    display: flex;
+    flex-direction: row;
+    width: 42vw;
+}
+.contain1:hover{
+    animation: contain1 3.5s alternate;
+    box-shadow: 0px -3px 7px 0px;
+}
+@keyframes contain1{
+    0% {transform: translateX(0);}
+    50% {transform: translateX(-14vw);}
+    100% {transform: translateX(-28vw);}
+}
+.button1 button{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 0;
+}
+.button11 {
+    background-color: rgb(40, 95, 40);
+}
+.button12 {
+    background-color: rgb(82, 66, 24);
+}
+.button13 {
+    background-color: rgba(6, 11, 36, 0.875);
+}
+
+
+.contain2{
+    background-color: blueviole;
+    display: flex;
+    flex-direction: row;
+    width: 42vw;
+}
+.contain2:hover{
+    animation: contain2 3.5s alternate;
+    box-shadow: 0px -3px 7px 0px;
+}
+.button2 button{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: solid 0.000002px;
+}
+@keyframes contain2{
+    0% {transform: translateX(0);}
+    50% {transform: translateX(-14vw);}
+    100% {transform: translateX(-28vw);}
+}
+.button21 {
+    background-color: rgb(81, 127, 195);
+}
+.button22 {
+    background-color: rgb(255, 255, 255);
+}
+.button23 {
+    background-color: rgba(180, 152, 95, 0.875);
+}
+
+
+.ligne2{
+    width: 20vw;
+    height: 88vh;
+    background-color: blueviole;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.ligne2 img{
+    width: 14vw;
+    height: 30vh;
+    object-fit: cover;
+}
+
+.contain3{
+    background-color: blueviole;
+    display: flex;
+    flex-direction: row;
+    width: 42vw;
+}
+.contain3:hover{
+    animation: contain3 3.5s alternate;
+    box-shadow: 0px -3px 7px 0px;
+}
+.button3 button{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 0;
+}
+@keyframes contain3{
+    0% {transform: translateX(0);}
+    50% {transform: translateX(-14vw);}
+    100% {transform: translateX(-28vw);}
+}
+.button31 {
+    background-color: rgb(140, 172, 220);
+}
+.button32 {
+    background-color: rgb(56, 98, 189);
+}
+.button33 {
+    background-color: rgba(59, 60, 66, 0.875);
+}
+
+.contain4{
+    background-color: blueviole;
+    display: flex;
+    flex-direction: row;
+    width: 42vw;
+}
+.contain4:hover{
+    animation: contain4 3s alternate;
+    box-shadow: 0px -3px 7px 0px;
+}
+.button4 button{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 0;
+}
+@keyframes contain4{
+    0% {transform: translateX(0);}
+    50% {transform: translateX(-14vw);}
+}
+.button41 {
+    background-color: rgb(42, 53, 43);
+}
+.button42 {
+    background-color: rgb(114, 105, 86);
+}
+
+.ligne3{
+    width: 20vw;
+    height: 88vh;
+    background-color: greenyello;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.ligne3 img{
+    width: 14vw;
+    height: 30vh;
+    object-fit: cover;
+}
+
+.contain5{
+    background-color: blueviole;
+    display: flex;
+    flex-direction: row;
+    width: 42vw;
+}
+.contain5:hover{
+    animation: contain5 3s alternate;
+    box-shadow: 0px -3px 7px 0px;
+}
+.button5 button{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 0;
+}
+@keyframes contain5{
+    0% {transform: translateX(0);}
+    50% {transform: translateX(-14vw);}
+    100% {transform: translateX(-28vw);}
+}
+.button51 {
+    background-color: rgb(114, 105, 86);
+}
+.button52 {
+    background-color: rgb(42, 53, 43);
+}
+.button53 {
+    background-color: rgb(36, 90, 132);
+}
+
+.contain6{
+    background-color: blueviole;
+    display: flex;
+    flex-direction: row;
+    width: 42vw;
+}
+.contain6:hover{
+    animation: contain6 3s alternate;
+    box-shadow: 0px -3px 7px 0px;
+}
+.button6 button{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: solid 0.000002px;
+}
+@keyframes contain6{
+    0% {transform: translateX(0);}
+    50% {transform: translateX(-14vw);}
+}
+.button61 {
+    background-color: rgb(226, 226, 226);
+}
+.button62 {
+    background-color: rgb(18, 18, 18);
+}
