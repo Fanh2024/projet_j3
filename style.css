@@ -11,6 +11,7 @@ nav {
     position: fixed;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     background-color: rgb(92, 111, 145);
     align-items: center;
     height: 9vh;
@@ -40,25 +41,75 @@ li a:hover{
     font-weight: bold;
 }
 ul {
-    /*background-color: red;*/
+    background-color: re;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 2vw;
     width: 25%;
 }
+
+.menu img{
+    display: none;
+    height: 50px;
+    width: 50px;
+}
+
 .notify {
+    float: left;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    /*background-color: aqua;*/
-    width: 10%;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2vw;
+    background-color: aqu;
+    width: 150px;
 }
 .notify img {
     height: 20px;
     width: 20px;
 }
-
+@media screen and (max-width: 800px){
+    ul{
+        display: none;
+    }
+    .menu img{
+        display: flex;
+        background-color: re;
+        margin-left: 10vw;
+    }
+    .notify{
+        margin-right: 5vw;
+    }
+}
+@media screen and (max-width: 450px){
+    nav h1{
+        font-size: 45px;
+    }
+    .notify img{ 
+        height: 20px;
+        width: 20px;
+        object-fit: cover;
+    }
+}
+@media screen and (max-width: 350px){
+    .menu img{
+        height: 40px;
+        width: 40px;
+    }
+    .notify img{ 
+        height: 18px;
+        width: 18px;
+        object-fit: cover;
+    }
+    nav h1{
+        font-size: 40px;
+        padding-left: 5vw;
+    }
+    .notify{
+        margin-left: -5vw;
+    }
+}
 #Home{
     background-color: rgb(230, 230, 230);
     padding-top: 9vh;
@@ -187,7 +238,21 @@ ul {
     width: 9vw;
     height: 5.5vh;
 }
-
+@media  screen and (max_width: 750px) {
+    #Home img .img3{
+        display: none;
+    }
+    #Home .image1 {
+        overflow: hidden;
+        width: 50vw;
+        height: 80vh;
+        background-color: yello;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        animation: translation 2.3s alternate;
+    }
+}
 #Boutique {
     background-color: rgb(230, 230, 230);
     padding-top: 9vh;
