@@ -136,7 +136,6 @@ ul {
     
 }
 #Home .image{
-    background-color: aqu;
     height: 91vh;
     width: 50vw;
     display: flex;
@@ -147,7 +146,6 @@ ul {
     overflow: hidden;
     width: 50vw;
     height: 40vh;
-    background-color: yello;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -165,7 +163,6 @@ ul {
     overflow: hidden;
     width: 50vw;
     height: 40vh;
-    background-color: greenyello;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -180,7 +177,6 @@ ul {
     }
 }
 #Home .intro{
-    background-color: blueviole;
     width: 50vw;
     color: rgb(81, 102, 158);
     display: flex;
@@ -238,7 +234,6 @@ ul {
     color: white;
 }
 #Home .bouton{
-    background-color: re;
     border-radius: 10px;
     overflow: hidden;
     display: flex;
@@ -322,7 +317,6 @@ ul {
     border-radius: 10px;
 }
 .imgCollection {
-    background-color: re;
     overflow: hidden;
     width: 90vw;
     height: 55vh;
@@ -348,7 +342,6 @@ ul {
     box-shadow: 0 2px 7px -1.9px;
 }
 .conteneurCollection{
-    background-color: blu;
     width: 15vw;
     height: 55vh;
     border-radius: 10px;
@@ -427,7 +420,6 @@ ul {
     font-weight: bold;
 }
 .paragraphe{
-    background-color: aqu;
     width: 19vw;
     display: flex;
     flex-direction: column;
@@ -435,7 +427,6 @@ ul {
     align-items: center;
 }
 .bouton1{
-    background-color: aqu;
     width: 6vw;
     height: 5vh;
     display: flex;
@@ -531,7 +522,6 @@ ul {
     box-shadow: 0px 2px 5px -1px;
 }
 .dessous {
-    background-color: beig;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -551,7 +541,6 @@ ul {
 .ligne1{
     width: 20vw;
     height: 88vh;
-    background-color: yello;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -608,7 +597,6 @@ ul {
     height: 42.2vh;
 }
 .contain1{
-    background-color: blueviole;
     display: flex;
     flex-direction: row;
     width: 42vw;
@@ -640,7 +628,6 @@ ul {
 
 
 .contain2{
-    background-color: blueviole;
     display: flex;
     flex-direction: row;
     width: 42vw;
@@ -674,7 +661,6 @@ ul {
 .ligne2{
     width: 20vw;
     height: 88vh;
-    background-color: blueviole;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -687,7 +673,6 @@ ul {
 }
 
 .contain3{
-    background-color: blueviole;
     display: flex;
     flex-direction: row;
     width: 42vw;
@@ -718,7 +703,6 @@ ul {
 }
 
 .contain4{
-    background-color: blueviole;
     display: flex;
     flex-direction: row;
     width: 42vw;
@@ -747,7 +731,6 @@ ul {
 .ligne3{
     width: 20vw;
     height: 88vh;
-    background-color: greenyello;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -760,7 +743,6 @@ ul {
 }
 
 .contain5{
-    background-color: blueviole;
     display: flex;
     flex-direction: row;
     width: 42vw;
@@ -791,7 +773,6 @@ ul {
 }
 
 .contain6{
-    background-color: blueviole;
     display: flex;
     flex-direction: row;
     width: 42vw;
@@ -848,7 +829,6 @@ ul {
         box-shadow: 0px 2px 5px -1px;
     }
     .dessous {
-        background-color: beig;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -861,14 +841,13 @@ ul {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .divers span{
-        font-size: 13px;
+        font-size: 11px;
         font-weight: bold;
         font-family: Arial, Helvetica, sans-serif;
     }
     .ligne1{
         width: 30vw;
         height: 80vh;
-        background-color: yello;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -925,7 +904,6 @@ ul {
         height: 32.2vh;
     }
     .contain1{
-        background-color: blueviole;
         display: flex;
         flex-direction: row;
         width: 75vw;
@@ -957,7 +935,6 @@ ul {
     
     
     .contain2{
-        background-color: blueviole;
         display: flex;
         flex-direction: row;
         width: 75vw;
@@ -991,7 +968,6 @@ ul {
     .ligne2{
         width: 30vw;
         height: 80vh;
-        background-color: blueviole;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1004,7 +980,6 @@ ul {
     }
     
     .contain3{
-        background-color: blueviole;
         display: flex;
         flex-direction: row;
         width: 75vw;
@@ -1035,7 +1010,6 @@ ul {
     }
     
     .contain4{
-        background-color: blueviole;
         display: flex;
         flex-direction: row;
         width: 75vw;
@@ -1064,7 +1038,6 @@ ul {
     .ligne3{
         width: 30vw;
         height: 80vh;
-        background-color: greenyello;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1077,7 +1050,6 @@ ul {
     }
     
     .contain5{
-        background-color: blueviole;
         display: flex;
         flex-direction: row;
         width: 75vw;
@@ -1108,7 +1080,6 @@ ul {
     }
     
     .contain6{
-        background-color: blueviole;
         display: flex;
         flex-direction: row;
         width: 75vw;
@@ -1155,28 +1126,24 @@ ul {
     flex-direction: column;
 }
 .schema1{
-    background-color: yellowgree;
     width: 100%;
     height: 33.3333333%;
     display: flex;
     flex-direction: row;
 }
 .schema2{
-    background-color: yello;
     width: 100%;
     height: 33.3333333%;
     display: flex;
     flex-direction: row;
 }
 .schema3{
-    background-color: whitesmok;
     width: 100%;
     height: 33.3333333%;
     display: flex;
     flex-direction: row;
 }
 .schema01, .schema02, .schema03{
-    background-color: aqu;
     width: 70%;
     height: 100%;
     display: flex;
@@ -1190,7 +1157,6 @@ ul {
     float: left;
 }
 .schema .img{
-    background-color: whit;
     width: 45%;
     height: 100%;
     display: flex;
@@ -1208,7 +1174,6 @@ ul {
     scale: 1.1;
 }
 .text{
-    background-color: blueviole;
     width: 55%;
     height: 100%;
     display: flex;
@@ -1234,7 +1199,6 @@ ul {
 
 
 .connexion{
-    background-color: r;
     width: 50vw;
     height: 80vh;
     display: flex;
@@ -1255,7 +1219,6 @@ ul {
     border: solid 0.0001px rgb(121, 145, 202);
 }
 .partieA{
-    background-color: blu;
     height: 10%;
     display: flex;
     align-items: center;
@@ -1266,11 +1229,9 @@ ul {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .partieB{
-    background-color: re;
     height: 60%;
 }
 .p{
-    background-color: aquamarin;
     height: 10%;
 }
 .p p{
@@ -1280,7 +1241,6 @@ ul {
     font-size: 14px;
 }
 .ecrit{
-    background-color: chartreus;
     height: 20%;
     width: 100%;
     display: flex;
@@ -1302,7 +1262,6 @@ ul {
     box-shadow: 0.5px 0.5px 4px -1px;
 }
 .partieC{
-    background-color: aqu;
     height: 30%;
     display: flex;
     flex-direction: column;
@@ -1310,7 +1269,6 @@ ul {
     gap: 1.5vh;
 }
 .bouttonn{
-    background-color: blueviole;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1340,7 +1298,6 @@ ul {
 }
 
 .partied{
-    background-color: viole;
     height: 40%;
     display: flex;
     flex-direction: column;
@@ -1353,7 +1310,6 @@ ul {
 }
 
 .partieE{
-    background-color: beig;
     height: 10%;
     display: flex;
     align-items: center;
@@ -1392,7 +1348,6 @@ ul {
         box-shadow: 1px 0.2px 6px -0.1px;
     }
     .connexion{
-        background-color: r;
         width: 90vw;
         height: 70vh;
         display: flex;
